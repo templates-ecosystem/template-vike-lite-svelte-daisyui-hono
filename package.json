@@ -38,7 +38,7 @@
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.64.0",
     "vike-lite": "^1.15.18",
-    "vike-lite-svelte": "^1.0.0",
+    "vike-lite-svelte": "^1.0.1",
     "vite": "^8.1.5"
   },
   "files": [
