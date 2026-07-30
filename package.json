@@ -18,26 +18,26 @@
     "od": "yarn outdated"
   },
   "dependencies": {
-    "svelte": "^5.56.6"
+    "svelte": "^5.56.8"
   },
   "devDependencies": {
-    "@hono/node-server": "^2.0.10",
+    "@hono/node-server": "^2.0.12",
     "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "@tailwindcss/vite": "^4.3.3",
-    "@types/node": "^26.1.1",
-    "@yarnpkg/sdks": "^3.3.0",
-    "daisyui": "^5.6.18",
-    "eslint": "^10.7.0",
-    "eslint-plugin-svelte": "^3.21.0",
+    "@types/node": "^26.1.2",
+    "@yarnpkg/sdks": "^3.3.1",
+    "daisyui": "^5.7.9",
+    "eslint": "^10.8.0",
+    "eslint-plugin-svelte": "^3.22.0",
     "eslint-plugin-tailwindcss": "^4.2.0",
     "eslint-plugin-unicorn": "^72.0.0",
-    "hono": "^4.12.31",
+    "hono": "^4.12.32",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.64.0",
-    "vike-lite": "^1.15.18",
-    "vike-lite-svelte": "^1.0.1",
-    "vite": "^8.1.5"
+    "typescript-eslint": "^8.65.0",
+    "vike-lite": "^1.21.5",
+    "vike-lite-svelte": "^1.0.5",
+    "vite": "^8.2.0"
   },
   "files": [
     "dist"
