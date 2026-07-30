@@ -12,13 +12,7 @@ export default {
     vikeLite({
       serverEntry: 'server/index.ts'
     }),
-    vikeLiteSvelte(),
-    ...process.env.NODE_ENV === 'production' ? [
-      (await import('standaloner/vite')).default({
-        bundle: true,
-        minify: true
-      })
-    ] : []
+    vikeLiteSvelte()
   ],
   server: {
     port: 3000
