@@ -1972,10 +1972,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:^4.12.32":
-  version: 4.12.32
-  resolution: "hono@npm:4.12.32"
-  checksum: 10c0/3bb2fc0b042af87202e0cb0e5f77ee5b578684d868e1e321ed3de53e02f1ef02fe700811fa0d2fc765636a217bae7633d552d55934175f3dec6307a1f63f4ecb
+"hono@npm:^4.12.33":
+  version: 4.12.33
+  resolution: "hono@npm:4.12.33"
+  checksum: 10c0/519d7e40acd8dcf9015f2012d536e56fd4896909602264a2cbc590a480ba5418dd56f68051dd5e624f3fd383abe766aaa95b5399261e9ab298dff2471271f3da
   languageName: node
   linkType: hard
 
@@ -3391,13 +3391,13 @@ __metadata:
     eslint-plugin-svelte: "npm:^3.22.0"
     eslint-plugin-tailwindcss: "npm:^4.2.0"
     eslint-plugin-unicorn: "npm:^72.0.0"
-    hono: "npm:^4.12.32"
+    hono: "npm:^4.12.33"
     svelte: "npm:^5.56.8"
     tailwindcss: "npm:^4.3.3"
     typescript: "npm:^6.0.3"
     typescript-eslint: "npm:^8.65.0"
     vike-lite: "npm:^1.21.5"
-    vike-lite-svelte: "npm:^1.0.5"
+    vike-lite-svelte: "npm:^1.0.6"
     vite: "npm:^8.2.0"
   languageName: unknown
   linkType: soft
@@ -3562,15 +3562,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vike-lite-svelte@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "vike-lite-svelte@npm:1.0.5"
+"vike-lite-svelte@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "vike-lite-svelte@npm:1.0.6"
   peerDependencies:
     "@sveltejs/vite-plugin-svelte": ">=7"
     svelte: ">=5"
     vike-lite: "*"
     vite: ">=8"
-  checksum: 10c0/b0a5c5d82dd6714da64928eb43068ddfcfdf58559ee24ad2fed29f551a3ea114176facb761565087999af75995007a6eccaf4856f543fa62a42bd2458665241c
+  checksum: 10c0/bcd79f767d3bfd2f70fad7c713e2e669cfe33331d1e8ebe7caa53dff4c1d3f0bb94077b40eb08d2296b6b75dd723e5bb9b2d6f118539d00c55133ea4f91d31d4
   languageName: node
   linkType: hard
 

@@ -31,12 +31,12 @@
     "eslint-plugin-svelte": "^3.22.0",
     "eslint-plugin-tailwindcss": "^4.2.0",
     "eslint-plugin-unicorn": "^72.0.0",
-    "hono": "^4.12.32",
+    "hono": "^4.12.33",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.65.0",
     "vike-lite": "^1.21.5",
-    "vike-lite-svelte": "^1.0.5",
+    "vike-lite-svelte": "^1.0.6",
     "vite": "^8.2.0"
   },
   "files": [
