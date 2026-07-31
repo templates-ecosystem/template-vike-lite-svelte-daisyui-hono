@@ -3397,7 +3397,7 @@ __metadata:
     typescript: "npm:^6.0.3"
     typescript-eslint: "npm:^8.65.0"
     vike-lite: "npm:^1.21.5"
-    vike-lite-svelte: "npm:^1.0.6"
+    vike-lite-svelte: "npm:^1.0.7"
     vite: "npm:^8.2.0"
   languageName: unknown
   linkType: soft
@@ -3562,15 +3562,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vike-lite-svelte@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "vike-lite-svelte@npm:1.0.6"
+"vike-lite-svelte@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "vike-lite-svelte@npm:1.0.7"
   peerDependencies:
     "@sveltejs/vite-plugin-svelte": ">=7"
     svelte: ">=5"
     vike-lite: "*"
     vite: ">=8"
-  checksum: 10c0/bcd79f767d3bfd2f70fad7c713e2e669cfe33331d1e8ebe7caa53dff4c1d3f0bb94077b40eb08d2296b6b75dd723e5bb9b2d6f118539d00c55133ea4f91d31d4
+  checksum: 10c0/b2ec20679269c901915d6cc8b44cfe056557efbe3758588ddf4ecb2162c9e25972089952d6c1b84e50f08a0318fdc7b8d8102e67f6e633be2f2d3ead2f6fcd7d
   languageName: node
   linkType: hard
 
