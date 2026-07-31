@@ -1,15 +1,14 @@
 <script lang="ts">
-  let isChecked = $state(true)
+  import CallApi from '@/components/CallApi.svelte'
+  import Checkbox from '@/components/Checkbox.svelte'
 </script>
 
 <h1>App: Vike Lite + Svelte</h1>
 
-<input
-  type="checkbox"
-  class="checkbox"
-  bind:checked={isChecked}
-/>
+<div class="divider divider-neutral"></div>
 
-<br />
+<Checkbox />
 
-The checkbox is: {isChecked ? 'checked' : 'unchecked'}
+<div class="divider divider-neutral"></div>
+
+<CallApi />

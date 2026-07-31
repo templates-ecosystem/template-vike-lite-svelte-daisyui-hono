@@ -1,20 +1,17 @@
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
-// import { logger } from 'hono/logger'
 import { renderPage } from 'vike-lite/server'
+
+import apiRoutes from './apiRoutes'
 
 const app = new Hono()
 
-// app.use(logger())
+if (process.env.NODE_ENV === 'production') app.use(cors())
 
-if (process.env.NODE_ENV === 'production') {
-  app.use(cors())
-}
+app.route('/api', apiRoutes)
 
-// Catch-all remaining requests using custom rendering
-app.get('*', async (c, next) => {
-  const response = await renderPage(c.req.raw)
-  return response ?? next()
+app.get('*', async (c) => {
+  return await renderPage(c.req.raw)
 })
 
 app.onError((error, c) => {
